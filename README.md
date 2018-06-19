@@ -166,6 +166,7 @@ axis: string,
 // - An object with `left, top, right, and bottom` properties.
 //   These indicate how far in each direction the draggable
 //   can be moved.
+// 限定范围，上下左右可以移动的范围，例：{left: -420, top: -18, right: 40, bottom: 300}
 bounds: {left: number, top: number, right: number, bottom: number} | string,
 
 // Specifies a selector to be used to prevent drag initialization.
